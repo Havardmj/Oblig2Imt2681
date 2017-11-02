@@ -1,11 +1,11 @@
+
 {
 	"comment": "",
 	"ignore": "test",
 	"package": [],
-	"rootPath": "github.com/cloud2"
+	"rootPath": "github.com/Havardmj/Oblig2Imt2681",
 	"heroku": {
-        "goVersion": "go1.9",
-        "install": ["./..."]
-        }
-
+	"goVersion": "go1.8.3",
+	"install": ["./..."]
+	}
 }
