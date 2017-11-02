@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"fmt"
 	"io/ioutil"
-	//"github.com/Havardmj/Oblig2Imt2681/cmd/database"
-	"github.com/havard/Oblig2/cmd/database"
+	"github.com/Havardmj/Oblig2Imt2681/cmd/database"
+	//"github.com/havard/Oblig2/cmd/database"
 	"encoding/json"
 	"time"
 )

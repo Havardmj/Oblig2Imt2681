@@ -7,10 +7,10 @@ import (
 	"io/ioutil"
 	"encoding/json"
 	"fmt"
-	"./../database/"
-
+	//"./../database/"
+	"github.com/Havardmj/Oblig2Imt2681/cmd/database"
 	"strings"
-	"github.com/havard/Oblig2/cmd/database"
+	//"github.com/havard/Oblig2/cmd/database"
 )
 
 func HandlerRequest(w http.ResponseWriter, r * http.Request) {
@@ -74,11 +74,11 @@ func LatestCurrency(w http.ResponseWriter, r * http.Request) {
 	defer r.Body.Close()
 	tmp := database.Webhookers{}
 */
-fmt.Fprintln("Not Implementet yet")
+//fmt.Fprintln("Not Implementet yet")
 
 }
 func AverageCurrency(w http.ResponseWriter, r * http.Request) {
-	fmt.Fprintln("Not Implementet yet")
+	//fmt.Fprintln("Not Implementet yet")
 
 }
 
