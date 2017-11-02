@@ -1,0 +1,11 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [],
+	"rootPath": "github.com/cloud2"
+	"heroku": {
+        "goVersion": "go1.9",
+        "install": ["./..."]
+        }
+
+}
